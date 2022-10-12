@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Savegame Unpacker and Repacker
+F1-Manager-2022-SaveFile-Repacker-main/
+
 # Distribution / packaging
 .Python
 build/
