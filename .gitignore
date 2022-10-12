@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Savegame Unpacker and Repacker
-F1-Manager-2022-SaveFile-Repacker-main/
+savefile_packer/
 
 # Distribution / packaging
 .Python
