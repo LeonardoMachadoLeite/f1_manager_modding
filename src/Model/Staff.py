@@ -1,4 +1,4 @@
-class StaffContract(object):
+class Staff(object):
     def __init__(self, StaffId, StaffType, FirstName, LastName, Nationality, DOB_ISO, UnspentXP, Morale, RetirementAge, Retired):
         self.StaffId = StaffId
         self.StaffType = StaffType
