@@ -10,7 +10,7 @@ BACKUP_DIR = os.getenv("BACKUP_DIR")
 SAVEFILE_DIR = "{:s}/F1Manager22/Saved/SaveGames".format(os.getenv("GAME_DIR"))
 HOME_DIR = os.path.abspath(os.path.curdir).replace("\src", "")
 
-TARGET_SAVE = "save8"
+TARGET_SAVE = "save9"
 
 SAVEFILE_PATH = "{}/{}.sav".format(SAVEFILE_DIR, TARGET_SAVE)
 
@@ -39,8 +39,9 @@ def create_save_db():
     save_db_path = "{}\\save_db\\{}".format(BACKUP_DIR, TARGET_SAVE)
     packer.main("unpack", SAVEFILE_PATH, save_db_path)
 
-# "{}".foormat(date.today())
-# print(datetime.today().strftime('%Y_%m_%d_%X').replace(':', '-'))
+def main():
+    create_save_backup()
+    create_save_db()
 
-create_save_backup()
-create_save_db()
+if __name__ == '__main__':
+    main()
