@@ -1,0 +1,23 @@
+RaceID,SeasonID,Day,TrackID,Name,Country,Laps
+104,2023,45011,2,Bahrain,Kingdom of Bahrain,57
+105,2023,45018,11,Jeddah,Saudi Arabia,50
+106,2023,45032,1,AlbertPark,Australia,58
+107,2023,45046,24,Imola,Italy,63
+108,2023,45060,22,Miami,USA,57
+109,2023,45074,5,Barcelona,Spain,66
+110,2023,45081,6,Monaco,Monaco,78
+111,2023,45095,4,Baku,Azerbaijan,51
+112,2023,45102,7,Montreal,Canada,70
+113,2023,45116,10,Silverstone,Great Britain,52
+114,2023,45123,9,RedBullRing,Austria,71
+115,2023,45137,8,PaulRicard,France,53
+116,2023,45144,12,Hungaroring,Hungary,70
+117,2023,45172,13,SpaFrancorchamps,Belgium,44
+118,2023,45179,23,Zandvoort,Netherlands,72
+119,2023,45186,14,Monza,Italy,53
+120,2023,45207,15,MarinaBay,Singapore,61
+121,2023,45214,17,Suzuka,Japan,53
+122,2023,45228,19,CircuitOfTheAmericas,USA,56
+123,2023,45235,18,HermanosRodriguez,Mexico,71
+124,2023,45249,20,Interlagos,Brazil,71
+125,2023,45256,21,YasMarina,Abu Dhabi,58

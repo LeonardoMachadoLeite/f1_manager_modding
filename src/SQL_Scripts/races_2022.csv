@@ -1,0 +1,23 @@
+RaceID,SeasonID,Day,TrackID,Name,Country,Laps
+82,2022,44640,2,Bahrain,Kingdom of Bahrain,57
+83,2022,44647,11,Jeddah,Saudi Arabia,50
+84,2022,44661,1,AlbertPark,Australia,58
+85,2022,44675,24,Imola,Italy,63
+86,2022,44689,22,Miami,USA,57
+87,2022,44703,5,Barcelona,Spain,66
+88,2022,44710,6,Monaco,Monaco,78
+89,2022,44724,4,Baku,Azerbaijan,51
+90,2022,44731,7,Montreal,Canada,70
+91,2022,44745,10,Silverstone,Great Britain,52
+92,2022,44752,9,RedBullRing,Austria,71
+93,2022,44766,8,PaulRicard,France,53
+94,2022,44773,12,Hungaroring,Hungary,70
+95,2022,44801,13,SpaFrancorchamps,Belgium,44
+96,2022,44808,23,Zandvoort,Netherlands,72
+97,2022,44815,14,Monza,Italy,53
+98,2022,44836,15,MarinaBay,Singapore,61
+99,2022,44843,17,Suzuka,Japan,53
+100,2022,44857,19,CircuitOfTheAmericas,USA,56
+101,2022,44864,18,HermanosRodriguez,Mexico,71
+102,2022,44878,20,Interlagos,Brazil,71
+103,2022,44885,21,YasMarina,Abu Dhabi,58
