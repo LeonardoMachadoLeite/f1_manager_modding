@@ -1,4 +1,4 @@
-DROP VIEW V_Staff_Contracts;
+--DROP VIEW V_Staff_Contracts;
 CREATE VIEW IF NOT EXISTS V_Staff_Contracts
 AS 
 select t.TeamName,

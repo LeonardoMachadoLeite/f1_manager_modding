@@ -36,7 +36,7 @@ def check_server():
 def get_races():
     SeasonID = request.args.get("SeasonID")
 
-    if SeasonID is not None:
+    if SeasonID:
         races_list = Race.query.filter(Race.SeasonID == int(SeasonID)).all()
     else:
         races_list = Race.query.all()
@@ -75,10 +75,6 @@ def get_race(RaceID:int):
         else:
             return jsonify(message="The Race {RaceID} has not been found"), 404
 
-# 'SeasonID', 'Day', 'TrackID', 'State',
-# 'RainPractice', 'TemperaturePractice', 'WeatherStatePractice',
-# 'RainQualifying', 'TemperatureQualifying', 'WeatherStateQualifying',
-# 'RainRace', 'TemperatureRace', 'WeatherStateRace'
 
 if __name__ == '__main__':
     app.run()
