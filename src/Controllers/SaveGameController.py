@@ -10,11 +10,8 @@ GAME_SAVE_DIR = os.getenv("GAME_SAVE_DIR")
 MODDED_SAVE_DIR = os.getenv("MODDED_SAVE_DIR")
 HOME_DIR = os.getenv("SRC_DIR")
 
-#TARGET_SAVE = "save22"
-
 sys.path.append(HOME_DIR)
-from savefile_packer import script as packer
-# print(packer.CHNUK1_NAME)
+from Utils.SaveFilePacker import SaveFilePacker as packer
 
 def create_folder_if_not_exists(path):
     Path(path).mkdir(parents=True, exist_ok=True)
@@ -70,7 +67,7 @@ class SaveGameController(object):
             f.write(new_file_content)
 
     def create_save_db(self):
-        packer.main("unpack", self.savefile_path, self.modded_savefile_path)
+        packer.process_unpack(self.savefile_path, self.modded_savefile_path)
     
     def unpack(self):
         create_folder_if_not_exists(self.backup_dir)
@@ -80,7 +77,3 @@ class SaveGameController(object):
     
     def repack(self):
         packer.process_repack(input_dir=self.modded_savefile_path, result_file=self.savefile_path)
-        
-
-#if __name__ == '__main__':
-#    main(TARGET_SAVE)
